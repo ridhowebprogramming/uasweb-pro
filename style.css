@@ -1,55 +1,30 @@
-.banner {
-    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg")
-     no-repeat center center ;
-     background-size: cover ;
-     padding-top:20% ;
-     padding-bottom: 20%;
-     color: #fff;
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.lingkaran{
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+}
+
+.link a{
     display: inline-block;
-    border-radius: 50%;
-    width: 150px;
-    margin: auto;
-    height: 150px;
+    margin-top: 20px;
+    margin-right: 10px;
     color: #fff;
-    background-color: #dc3545;
 }
 
-.lingkaran i {
-position: relative;
-top: 30px;
-
+.link a:hover .bi-facebook{
+    color: #3b5998;
 }
 
-.crop-img{
- object-fit: cover;
-
+.link a:hover .bi-github{
+    color: #ccc;
 }
 
-
-.profile img{
-    width: 250px;
-    border: 10px solid #cccc;
-    
-    }
-
-a.social {
-display: inline-block;
-width: 40px;
-height: 40px;
-color: #fff;
-border-radius: 50%;
-background-color: #333;
-line-height: 40px;
+.link a:hover .bi-instagram{
+    color: #C13584;
 }
 
-.kontak {
-    background: url("https://wallpaperaccess.com/full/1867010.jpg") 
-    no-repeat center center;
-    background-size: cover ;
-    padding-bottom: 20%;
-    padding-top: 20%;
-    color: #fff;
+.link a:hover .bi-twitter{
+    color: #1DA1F2;
 }
